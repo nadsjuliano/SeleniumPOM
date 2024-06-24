@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Selenium_Practice" class="navigator-link">
+              <span class="suite-name border-passed">Selenium Practice</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Selenium_Practice" class="navigator-link ">
+                    <span>C:\Users\Nads\eclipse-workspace\SeleniumPOM\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Selenium_Practice" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Selenium_Practice" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Selenium_Practice" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Selenium_Practice" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Selenium_Practice" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Selenium_Practice" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Selenium_Practice" class="hide-methods passed suite-Selenium_Practice"> (hide)</a> <!-- hide-methods passed suite-Selenium_Practice -->
+                      <a href="#" panel-name="suite-Selenium_Practice" class="show-methods passed suite-Selenium_Practice"> (show)</a> <!-- show-methods passed suite-Selenium_Practice -->
+                    </span>
+                    <div class="method-list-content passed suite-Selenium_Practice">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Practice" title="test.LoginTest" class="method navigator-link" hash-for-method="login(, Login with Valid Credential, automationtest07@gmail.com, Testing#123!, Valid)">login(, Login with Valid Credential, automationtest07@gmail.com, Testing#123!, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Practice" title="test.LoginTest" class="method navigator-link" hash-for-method="login(, Login - Handles case sensitive, AUTOMATIONTEST07@GMAIL.COM, TESTING#123!, Error: The password you ...)">login(, Login - Handles case sensitive, AUTOMATIONTEST07@GMAIL.COM, TESTING#123!, Error: The password you ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Practice" title="test.LoginTest" class="method navigator-link" hash-for-method="login(y, Login with Correct Username and Empty Password, automationtest07@gmail.com, , Error: Password is ...)">login(y, Login with Correct Username and Empty Password, automationtest07@gmail.com, , Error: Password is ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Practice" title="test.LoginTest" class="method navigator-link" hash-for-method="login(, Login - Authentication, , , )">login(, Login - Authentication, , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Practice" title="test.LoginTest" class="method navigator-link" hash-for-method="login(, Login with Empty Username and Valid Password, , Testing#123!, Error: Username is required.)">login(, Login with Empty Username and Valid Password, , Testing#123!, Error: Username is required.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Practice" title="test.LoginTest" class="method navigator-link" hash-for-method="login(, Login with Empty Username and Empty Password, , , Error: Username is required.)">login(, Login with Empty Username and Empty Password, , , Error: Username is required.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Practice" title="test.RegistrationTest" class="method navigator-link" hash-for-method="registration(, Registration with Empty Email and Password, , , Error: Please provide a valid email address.)">registration(, Registration with Empty Email and Password, , , Error: Please provide a valid email address.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Practice" title="test.RegistrationTest" class="method navigator-link" hash-for-method="registration(, Registration Sign-in, automationtest07@gmail.com, Testing#123!, Valid)">registration(, Registration Sign-in, automationtest07@gmail.com, Testing#123!, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Practice" title="test.RegistrationTest" class="method navigator-link" hash-for-method="registration(, Registration with Empty Password, automationtest100@gmail.com, , Error: Please enter an account pa...)">registration(, Registration with Empty Password, automationtest100@gmail.com, , Error: Please enter an account pa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Practice" title="test.RegistrationTest" class="method navigator-link" hash-for-method="registration(y, Registration with Empty Email, , Testing#123!, Error: Please provide a valid email address.)">registration(y, Registration with Empty Email, , Testing#123!, Error: Please provide a valid email address.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Selenium_Practice -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Selenium_Practice" class="panel Selenium_Practice">
+          <div class="suite-Selenium_Practice-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.RegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registration(, Registration with Empty Email and Password, , , Error: Please provide a valid email address.)">
+                  </a> <!-- registration(, Registration with Empty Email and Password, , , Error: Please provide a valid email address.) -->
+                  <span class="method-name">registration</span>
+                  <span class="parameters">(,Registration with Empty Email and Password,,,Error: Please provide a valid email address.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registration(, Registration Sign-in, automationtest07@gmail.com, Testing#123!, Valid)">
+                  </a> <!-- registration(, Registration Sign-in, automationtest07@gmail.com, Testing#123!, Valid) -->
+                  <span class="method-name">registration</span>
+                  <span class="parameters">(,Registration Sign-in,automationtest07@gmail.com,Testing#123!,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registration(, Registration with Empty Password, automationtest100@gmail.com, , Error: Please enter an account pa...)">
+                  </a> <!-- registration(, Registration with Empty Password, automationtest100@gmail.com, , Error: Please enter an account pa...) -->
+                  <span class="method-name">registration</span>
+                  <span class="parameters">(,Registration with Empty Password,automationtest100@gmail.com,,Error: Please enter an account password.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registration(y, Registration with Empty Email, , Testing#123!, Error: Please provide a valid email address.)">
+                  </a> <!-- registration(y, Registration with Empty Email, , Testing#123!, Error: Please provide a valid email address.) -->
+                  <span class="method-name">registration</span>
+                  <span class="parameters">(y,Registration with Empty Email,,Testing#123!,Error: Please provide a valid email address.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Practice-class-passed -->
+          <div class="suite-Selenium_Practice-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(, Login with Valid Credential, automationtest07@gmail.com, Testing#123!, Valid)">
+                  </a> <!-- login(, Login with Valid Credential, automationtest07@gmail.com, Testing#123!, Valid) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(,Login with Valid Credential,automationtest07@gmail.com,Testing#123!,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(, Login - Handles case sensitive, AUTOMATIONTEST07@GMAIL.COM, TESTING#123!, Error: The password you ...)">
+                  </a> <!-- login(, Login - Handles case sensitive, AUTOMATIONTEST07@GMAIL.COM, TESTING#123!, Error: The password you ...) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(,Login - Handles case sensitive,AUTOMATIONTEST07@GMAIL.COM,TESTING#123!,Error: The password you entered for the username AUTOMATIONTEST07@GMAIL.COM is incorrect. Lost your password?)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(y, Login with Correct Username and Empty Password, automationtest07@gmail.com, , Error: Password is ...)">
+                  </a> <!-- login(y, Login with Correct Username and Empty Password, automationtest07@gmail.com, , Error: Password is ...) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(y,Login with Correct Username and Empty Password,automationtest07@gmail.com,,Error: Password is required.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(, Login - Authentication, , , )">
+                  </a> <!-- login(, Login - Authentication, , , ) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(,Login - Authentication,,,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(, Login with Empty Username and Valid Password, , Testing#123!, Error: Username is required.)">
+                  </a> <!-- login(, Login with Empty Username and Valid Password, , Testing#123!, Error: Username is required.) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(,Login with Empty Username and Valid Password,,Testing#123!,Error: Username is required.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(, Login with Empty Username and Empty Password, , , Error: Username is required.)">
+                  </a> <!-- login(, Login with Empty Username and Empty Password, , , Error: Username is required.) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(,Login with Empty Username and Empty Password,,,Error: Username is required.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Practice-class-passed -->
+        </div> <!-- panel Selenium_Practice -->
+        <div panel-name="test-xml-Selenium_Practice" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Nads\eclipse-workspace\SeleniumPOM\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Selenium Practice&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Registration&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.RegistrationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Registration --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login --&gt;
+&lt;/suite&gt; &lt;!-- Selenium Practice --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Selenium_Practice" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Selenium Practice</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Registration (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Selenium_Practice" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Selenium Practice</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Selenium_Practice" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Selenium Practice</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Selenium_Practice');
+function tableData_Selenium_Practice() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'registration')
+data.setCell(0, 2, 'test.RegistrationTest')
+data.setCell(0, 3, 6323);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'login')
+data.setCell(1, 2, 'test.LoginTest')
+data.setCell(1, 3, 5908);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'registration')
+data.setCell(2, 2, 'test.RegistrationTest')
+data.setCell(2, 3, 3);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'login')
+data.setCell(3, 2, 'test.LoginTest')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'registration')
+data.setCell(4, 2, 'test.RegistrationTest')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'registration')
+data.setCell(5, 2, 'test.RegistrationTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'login')
+data.setCell(6, 2, 'test.LoginTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'login')
+data.setCell(7, 2, 'test.LoginTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'login')
+data.setCell(8, 2, 'test.LoginTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'login')
+data.setCell(9, 2, 'test.LoginTest')
+data.setCell(9, 3, 0);
+window.suiteTableData['Selenium_Practice']= { tableData: data, tableDiv: 'times-div-Selenium_Practice'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <div id="times-div-Selenium_Practice">
+              </div> <!-- times-div-Selenium_Practice -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Selenium_Practice" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Selenium Practice</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Selenium_Practice" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Selenium_Practice" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.RegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">registration(, Registration Sign-in, automationtest07@gmail.com, Testing#123!, Valid)</span>
+                <span class="method-start">885 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registration(y, Registration with Empty Email, , Testing#123!, Error: Please provide a valid email address.)</span>
+                <span class="method-start">890 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registration(, Registration with Empty Email and Password, , , Error: Please provide a valid email address.)</span>
+                <span class="method-start">7214 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registration(, Registration with Empty Password, automationtest100@gmail.com, , Error: Please enter an account pa...)</span>
+                <span class="method-start">7214 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7215 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7427 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login(, Login with Valid Credential, automationtest07@gmail.com, Testing#123!, Valid)</span>
+                <span class="method-start">7458 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(y, Login with Correct Username and Empty Password, automationtest07@gmail.com, , Error: Password is ...)</span>
+                <span class="method-start">7459 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(, Login with Empty Username and Valid Password, , Testing#123!, Error: Username is required.)</span>
+                <span class="method-start">13367 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(, Login with Empty Username and Empty Password, , , Error: Username is required.)</span>
+                <span class="method-start">13369 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(, Login - Handles case sensitive, AUTOMATIONTEST07@GMAIL.COM, TESTING#123!, Error: The password you ...)</span>
+                <span class="method-start">13370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13370 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="test-method">
+                <span class="method-name">login(, Login - Authentication, , , )</span>
+                <span class="method-start">13370 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

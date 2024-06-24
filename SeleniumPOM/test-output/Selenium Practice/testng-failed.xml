@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Selenium Practice]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Registration(failed)">
+    <classes>
+      <class name="test.RegistrationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="registration" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- test.RegistrationTest -->
+    </classes>
+  </test> <!-- Registration(failed) -->
+</suite> <!-- Failed suite [Selenium Practice] -->
