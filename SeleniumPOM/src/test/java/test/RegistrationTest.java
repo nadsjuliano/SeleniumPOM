@@ -43,7 +43,6 @@ public class RegistrationTest extends BaseTest {
 				dashboard.verifyAccountSuccess("Hello");
 			else
 				register.verifyErrorMessage(validationMessage);
-			
 			closeBrowser();
 		}
 

@@ -72,7 +72,7 @@ public class BaseTest {
 	}
 	
 	public void closeBrowser() {
-		this.driver.quit();
+		driver.quit();
 		logger.info("Browser is closed");
 	}
 	

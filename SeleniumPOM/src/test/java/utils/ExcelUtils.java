@@ -8,6 +8,7 @@ public class ExcelUtils {
 	XSSFWorkbook workbook;
 	static XSSFSheet sheet;
 
+	// Constructor to initialize Excel file path and worksheet name
 	public ExcelUtils(String excelPath, String sheetName) {
 		try {
 			workbook = new XSSFWorkbook(excelPath);
@@ -17,6 +18,7 @@ public class ExcelUtils {
 		}
 	}
 
+	// Returns the row count
 	public int getRowCount() {
 		int rowCount = 0;
 		try {
@@ -28,6 +30,7 @@ public class ExcelUtils {
 		return rowCount;
 	}
 
+	// Returns the column count
 	public int getColCount() {
 		int colCount = 0;
 		try {
@@ -39,6 +42,8 @@ public class ExcelUtils {
 		return colCount;
 	}
 
+	// Returns the data of each cell
+	// Returns a blank data if cell is null
 	public String getCellData(int rowNum, int colNum) {
 		String cellData = null;
 		try {
@@ -54,6 +59,7 @@ public class ExcelUtils {
 		return cellData;
 	}
 
+	// Reads data from an Excel file and returns the data of each cell except column header
 	public static Object[][] testdata(String excelPath, String sheetName) {
 		ExcelUtils excel = new ExcelUtils(excelPath, sheetName);
 

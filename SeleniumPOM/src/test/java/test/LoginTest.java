@@ -42,7 +42,6 @@ public class LoginTest extends BaseTest {
 				dashboard.verifyAccountSuccess("Hello");
 			else
 				login.verifyErrorMessage(validationMessage);
-			
 			closeBrowser();
 		}
 		
