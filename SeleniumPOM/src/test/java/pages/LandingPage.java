@@ -12,6 +12,7 @@ public class LandingPage extends BaseTest {
 
 	public By mnuShop = By.xpath("//a[@href='https://practice.automationtesting.in/shop/' and text()='Shop']");
 	public By mnuMyAccount = By.xpath("//a[@href='https://practice.automationtesting.in/my-account/' and text()='My Account']");
+	public By mnuViewShoppingCart = By.xpath("//a[@title='View your shopping cart']");
 
 	public LandingPage(WebDriver driver, ExtentTest logger, Action action) {
 		this.driver = driver;
@@ -24,10 +25,11 @@ public class LandingPage extends BaseTest {
 		case "shop":
 			action.clickElement(mnuShop, "Shop");
 			break;
-
 		case "my account":
 			action.clickElement(mnuMyAccount, "My Account");
 			break;
+		case "view shopping cart":
+			action.clickElement(mnuViewShoppingCart, "View Item");
 		}
 
 	}

@@ -44,8 +44,8 @@ public class ExcelUtils {
 
 	// Returns the data of each cell
 	// Returns a blank data if cell is null
-	public String getCellData(int rowNum, int colNum) {
-		String cellData = null;
+	public Object getCellData(int rowNum, int colNum) {
+		Object cellData = null;
 		try {
 			if (sheet.getRow(rowNum).getCell(colNum) == null)
 				return cellData = "";
@@ -72,7 +72,7 @@ public class ExcelUtils {
 		
 		for (int i = 1; i < rowCount; i++) {
 			for (int j = 0; j < colCount; j++) {
-				String cellData = excel.getCellData(i, j);
+				Object cellData = excel.getCellData(i, j);
 //				System.out.print(cellData + " | ");
 				data[i - 1][j] = cellData;
 			}

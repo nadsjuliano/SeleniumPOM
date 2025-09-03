@@ -3,6 +3,7 @@ package actiondriver;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.List;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
@@ -52,6 +53,16 @@ public class Action extends BaseTest {
 		try {
 			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 			wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+			logger.fail("Element not found.");
+		}
+	}
+	
+	public void waitForElementsVisibility(List<WebElement> element) {
+		try {
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+			wait.until(ExpectedConditions.visibilityOfAllElements(element));
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 			logger.fail("Element not found.");

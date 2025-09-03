@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-04T16:43:17 PST" name="Default suite" finished-at="2024-07-04T16:43:37 PST" duration-ms="19862">
+  <suite started-at="2025-09-03T14:32:24 PST" name="Default suite" finished-at="2025-09-03T14:32:56 PST" duration-ms="31907">
     <groups>
     </groups>
-    <test started-at="2024-07-04T16:43:17 PST" name="Default test" finished-at="2024-07-04T16:43:37 PST" duration-ms="19862">
+    <test started-at="2025-09-03T14:32:24 PST" name="Default test" finished-at="2025-09-03T14:32:56 PST" duration-ms="31907">
       <class name="test.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HomePageTest@131774fe]" started-at="2024-07-04T16:43:17 PST" name="setUp" finished-at="2024-07-04T16:43:17 PST" duration-ms="283" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HomePageTest@223d2c72]" started-at="2025-09-03T14:32:24 PST" name="setUp" finished-at="2025-09-03T14:32:25 PST" duration-ms="462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="placeOrder(java.lang.String,java.lang.String)[pri:0, instance:test.HomePageTest@131774fe]" started-at="2024-07-04T16:43:18 PST" name="placeOrder" data-provider="testData" finished-at="2024-07-04T16:43:36 PST" duration-ms="17976" status="PASS">
+        <test-method signature="placeOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.HomePageTest@223d2c72]" started-at="2025-09-03T14:32:27 PST" name="placeOrder" data-provider="testData" finished-at="2025-09-03T14:32:56 PST" duration-ms="28952" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,11 +23,16 @@
                 <![CDATA[Home Page - Place Order]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- placeOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.HomePageTest@131774fe]" started-at="2024-07-04T16:43:36 PST" name="tearDown" finished-at="2024-07-04T16:43:37 PST" duration-ms="407" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.HomePageTest@223d2c72]" started-at="2025-09-03T14:32:56 PST" name="tearDown" finished-at="2025-09-03T14:32:56 PST" duration-ms="601" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

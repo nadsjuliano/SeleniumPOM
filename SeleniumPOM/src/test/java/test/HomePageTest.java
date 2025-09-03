@@ -10,6 +10,7 @@ import pages.LandingPage;
 import utils.Constants;
 import utils.ExcelUtils;
 
+
 public class HomePageTest extends BaseTest {
 	
 	@BeforeClass
@@ -18,7 +19,7 @@ public class HomePageTest extends BaseTest {
 	}
 	
 	@Test(dataProvider="testData")
-	public void placeOrder(String flag, String testcase) {
+	public void placeOrder(String flag, String testcase, String addToBasket) {
 		String testcaseName = testcase;
 		if(flag.equalsIgnoreCase("y")) {
 			// enter test name
@@ -34,7 +35,11 @@ public class HomePageTest extends BaseTest {
 			homePage.clickHome();
 			homePage.verifyNoOfArrivalSlider();
 			homePage.navigateSlider();
-			closeBrowser();
+			homePage.addItemToBasket(addToBasket);
+			landingPage.selectFromTopMenu("View Shopping Cart");
+			homePage.verifyTotal();
+			homePage.clickProceedToCheckout();
+//			closeBrowser();
 		}
 	}
 	
